@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+    <!-- CSS links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#fff082">
+    <meta name="msapplication-config" content="../assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>LSNIA: Cluster</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="LSNIA: Cluster" />
+    <meta name="description"
+        content="The Numerical Simulation and Artificial Intelligence Laboratory (LSNIA) has two high-performance computing environments (HPC), in cluster architecture. The infrastructure offered by the group gives the possibility of executing operations that require high computational processing, from fluid dynamics simulations to machine learning network training." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lsnia-unesp.github.io/pages/cluster.html" />
+    <meta property="og:title" content="LSNIA: Cluster" />
+    <meta property="og:description"
+        content="The Numerical Simulation and Artificial Intelligence Laboratory (LSNIA) has two high-performance computing environments (HPC), in cluster architecture. The infrastructure offered by the group gives the possibility of executing operations that require high computational processing, from fluid dynamics simulations to machine learning network training." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/lsnia-unesp/lsnia-unesp.github.io/main/lsnia-thumbnail.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lsnia-unesp.github.io/pages/cluster.html" />
+    <meta property="twitter:title" content="LSNIA: Cluster" />
+    <meta property="twitter:description"
+        content="The Numerical Simulations and Artificial Intelligence Laboratory (LSNIA) develops research in computational mathematics, artificial intelligence and engineering applications (e.g., fluid dynamics)." />
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/lsnia-unesp/lsnia-unesp.github.io/main/lsnia-thumbnail.jpg" />
+</head>
+
+<body class="black white-text">
+    <div class="navbar-fixed">
+        <nav class="midnight-grey">
+            <div class="nav-wrapper container">
+                <a href="../index.html" class="brand-logo">LSNIA</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="about.html" class="grey-text">About</a></li>
+                    <li><a href="team.html" class="grey-text">Team</a></li>
+                    <li><a href="papers.html" class="grey-text">Publications/Projects</a></li>
+                    <li><a href="#" class="white-text">Cluster</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <ul class="sidenav midnight-grey" id="mobile-demo">
+        <li><a href="about.html" class="grey-text">About</a></li>
+        <li><a href="team.html" class="grey-text">Team</a></li>
+        <li><a href="papers.html" class="grey-text">Publications/Projects</a></li>
+        <li><a href="#" class="white-text">Cluster</a></li>
+    </ul>
+
+    <div class="container">
+        <h1 class="header center white-text">Policies for use</h1>
+        <div class="row center">
+            <h5 class="header col s12 light grey-text left-align">
+                The Numerical Simulation and Artificial Intelligence Laboratory (LSNIA) cluster is a multi-user equipment whose total capacity is made available simultaneously and shared to registered users.
+                <br><br>
+                All access is done remotely, via the internet (via a secure terminal - SSH). The execution/processing demands are organized via queue, by free software (SLURM, in this case), which manages the available resources in response to users' processing demands.
+                <br><br>
+                In this way, as soon as the resources required by a task are unoccupied/available, it automatically begins execution, following the order of submission to the queue made by users.
+                <br><br>
+                Those interested in using the cluster should send an email to <span class="white-text">lsn.fct@unesp.br</span>
+            </h5>
+        </div>
+    </div>
+    
+    <br><br>
+    <br>
+
+    <div class="midnight-grey">
+        <div class="divider grey darken-3"></div>
+        <div class="container white-text">
+            <h1 class="header center white-text">CLUSTER 1</h1>
+            <div class="row center">
+                <h5 class="header col s12 light grey-text left-align">
+                    <span class="white-text">Master</span><br><br>
+                    Processor: 2 x Intel(R) Xeon(R) E5-2620 - 2.00 GHz.<br>
+                    Memory: 4 x 8 GB RAM DDR3 ECC.<br>
+                    Hard Drive: 8 x 2 TB (8 TB) RAID 6 arrangement.<br>
+                    
+                    <br><br>
+                    
+                    <span class="white-text">Turtle (6 blades)</span><br><br>
+                    Processor: 2 x Intel(R) Xeon(R) E5-2690 - 2.90 GHz.<br>
+                    Memory: 4 x 8 GB RAM DDR3 ECC.<br>
+                    Hard Drive: 2 x 500 GB (500 GB) RAID 1 arrangement.<br>
+                    
+                    <br><br>
+                    
+                    <span class="white-text">Rabbit (6 blades)</span><br><br>
+                    Processor: Intel(R) Xeon(R) X5690 - 3.46G Hz.<br>
+                    Memory: 4 x 8 GB RAM DDR3 ECC.<br>
+                    Hard Drive: 500 GB RAID 1 arrangement (500 GB).<br>
+
+                    <br><br>
+
+                    <span class="white-text">Storages</span><br><br>
+                    6 x 1 TB (4 TB) RAID 5 storage.<br>
+                    4 x 2 TB (6 TB) RAID 5 storage.<br>
+                    RAID storage at 10 x 8 TB.<br>
+                </h5>
+            </div>
+        </div>
+        <div class="divider grey darken-3"></div>
+    </div>
+
+    <br><br>
+    
+    <div class="almost-black">
+        <div class="divider grey darken-3"></div>
+        <div class="container white-text">
+            <h1 class="header center white-text">CLUSTER 2</h1>
+            <div class="row center">
+                <h5 class="header col s12 light grey-text left-align">
+                    <span class="white-text">Master</span><br><br>
+                    Processor: 1 x AMD FX-6300 3.50 Ghz AM3+.<br>
+                    Memory: 2 x 4 GB DDR3 RAM.<br>
+                    Hard Drive: 6 x 2 TB (5 TB) RAID 5 arrangement.<br>
+                    
+                    <br><br>
+                    
+                    <span class="white-text">Panda (24 blades)</span><br><br>
+                    Processor 2 x Intel(R) Xeon(R) X5690 - 3.46 GHz.<br>
+                    Memory: 4 x 8 GB DDR3 ECC RAM.<br>
+                    Hard Drive: 2 x 500 GB RAID 1 array (500 GB).<br>
+                </h5>
+            </div>
+        </div>
+        <div class="divider grey darken-3"></div>
+    </div>
+
+    <br><br>
+
+    <div class="midnight-grey">
+        <div class="divider grey darken-3"></div>
+        <div class="container white-text">
+            <h1 class="header center white-text">GPU nodes</h1>
+            <div class="row center">
+                <h5 class="header col s12 light grey-text left-align">
+                    <span class="white-text">cs2n99:</span><br><br>
+                    Processor: 1 x Intel(R) Xeon(R) Silver 2.2 GHz<br>
+                    Memory: 2 x 8 GB DDR4 ECC RAM.<br>
+                    Hard Drive: 2 x SSD 240 GB.<br>
+                    QUADRO VCQRTX4000-PB RTX-4000 8 GB DDR6 Video Card.<br>
+                    
+                    <br><br>
+                    
+                    <span class="white-text">csn80:</span><br><br>
+                    Processor: Intel(R) Core(2) I7-11700F.<br>
+                    Memory: 4 x 32 GB DDR4 RAM.<br>
+                    Storage: 1 TB NVMe SSD.<br>
+                    Video card: Nvidia(R) RTX 3090, 24 GB VRAM GDDR6X.<br>
+                    
+                    <br><br>
+
+                    <span class="white-text">csn90:</span><br><br>
+                    Processor: Intel(R) Core(2) I7-12700F.<br>
+                    Memory: 4 x 32 GB DDR5 RAM.<br>
+                    Storage: 1 TB NVMe SSD.<br>
+                    Video card: Nvidia(R) RTX 3080, 10 GB VRAM GDDR6X.<br>
+
+                    <br><br>
+
+                    <span class="white-text">csn98:</span><br><br>
+                    Processor: Intel(R) Core(2) I7-12700F.<br>
+                    Memory: 4 x 32 GB DDR5 RAM.<br>
+                    Storage: 1 TB NVMe SSD.<br>
+                    Video card: Nvidia(R) RTX 3080 Ti, 12 GB VRAM GDDR6X.<br>
+
+                    <br><br>
+
+                    <span class="white-text">csn97:</span><br><br>
+                    Processor: Intel(R) Core(2) I7-12700KF.<br>
+                    Memory: 2 x 16 GB DDR5 RAM.<br>
+                    Storage: 1 TB NVMe SSD.<br>
+                    Video card: Nvidia(R) RTX 3090, 24 GB VRAM GDDR6X.<br>
+                </h5>
+            </div>
+        </div>
+        <div class="divider grey darken-3"></div>
+    </div>
+
+    <br><br>
+
+    <footer class="page-footer almost-black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">LSNIA</h5>
+                    <p class="grey-text">The Numerical Simulations and Artificial Intelligence Laboratory (LSNIA) develops research in computational mathematics, artificial intelligence and engineering applications (e.g., fluid dynamics).</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Collaborators</h5>
+                    <ul>
+                        <li><a class="grey-text" href="https://www.gov.br/cnpq/pt-br" target="_blank">CNPq</a></li>
+                        <li><a class="grey-text" href="https://fapesp.br/" target="_blank">FAPESP</a></li>
+                        <li><a class="grey-text" href="https://cemeai.icmc.usp.br/" target="_blank">CeMEAI</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Contact</h5>
+                    <ul>
+                        <li><a class="grey-text" href="#!">lsn.fct@unesp.br</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2024 LSNIA 
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/sidenav.js"></script>
+
+</body>
+
+</html>

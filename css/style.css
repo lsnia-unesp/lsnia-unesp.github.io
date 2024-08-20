@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.midnight-grey {
+	background-color: #131321;
+}
+
+.wine {
+	background-color: #420703;
+}
+
+.marine {
+	background-color: #040413;
+}
+
+.leaf {
+	background-color: #041306;
+}
+
+.almost-black {
+	background-color: #0d0d0d;
+}
+
+@media only screen and (max-width: 600px) {
+    .padding-top-on-small-add {
+        padding-top: 30px;
+    }
+}
+
+.vertical-align-image {
+	padding: 70px 0;
+}
